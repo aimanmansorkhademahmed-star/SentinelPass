@@ -1,4 +1,4 @@
-Suggested Title: From Performance Failure to Foundational Learning: My Journey with SentinelPass
+ My Journey with SentinelPass
 "My ambition behind SentinelPass was noble: to build a genuine analysis tool to address weak password vulnerabilities. However, in its initial version, the project was nothing more than an unscalable proof-of-concept. The tool was desperately slow, incapable of processing even simple lists of passwords efficiently, rendering it completely unusable in a practical setting.
 I faced a fundamental challenge in reducing the time required for searching and classification. Instead of giving up, I realized the solution was not in merely 'patching' the surface code but in diving deep into the fundamentals of Theoretical Computer Science. I was forced to pause the coding process and intensively study Data Structures.
 The first technical breakthrough was the implementation of Hash Tables. I successfully re-engineered the most critical part of the processing operation to reduce the time complexity of searching, transforming performance from 'unacceptable' to 'tenable'.
