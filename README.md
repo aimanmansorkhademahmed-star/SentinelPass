@@ -1,10 +1,52 @@
- My Journey with SentinelPass
-"My ambition behind SentinelPass was noble: to build a genuine analysis tool to address weak password vulnerabilities. However, in its initial version, the project was nothing more than an unscalable proof-of-concept. The tool was desperately slow, incapable of processing even simple lists of passwords efficiently, rendering it completely unusable in a practical setting.
-I faced a fundamental challenge in reducing the time required for searching and classification. Instead of giving up, I realized the solution was not in merely 'patching' the surface code but in diving deep into the fundamentals of Theoretical Computer Science. I was forced to pause the coding process and intensively study Data Structures.
-The first technical breakthrough was the implementation of Hash Tables. I successfully re-engineered the most critical part of the processing operation to reduce the time complexity of searching, transforming performance from 'unacceptable' to 'tenable'.
-The Shortcomings That Underline My Need for Study:
-Despite this improvement, I realized that SentinelPass is still severely lacking; the single optimization I applied solves only one problem, while the rest of the tool still suffers from major deficiencies that require advanced academic knowledge.
-Vague Classification Logic: The current 'strength metric' lacks statistical sophistication. Distinguishing between a password that is 'syntactically strong but semantically weak' requires a deeper understanding of Probability Theory and its application in Machine Learning Algorithms, knowledge I do not yet possess.
-Resistance to Complex Patterns: The current code relies on manual Regular Expressions that are easily bypassed by sophisticated attackers. To develop a tool capable of intelligently predicting new patterns, I urgently need in-depth study in Algorithmic Analysis and the construction of predictive models.
-Scalability and Reliability: The tool is currently not designed for expansion in large enterprise environments. I require an advanced understanding of Distributed Systems Design and professional software engineering to make the project truly reliable.
-These challenges taught me that the difference between a hobbyist coder and a professional engineer lies in theoretical depth. I am convinced that enrolling in your academic program will provide me with the essential scientific foundation to bridge these gaps and transform SentinelPass from a partially successful personal project into a genuine and effective contribution to the field of cybersecurity."
+SentinelPass is a Python-based password strength analysis tool designed to evaluate password resilience using entropy, pattern detection, and heuristic scoring. It calculates Shannon Entropy, detects character-set weaknesses, and classifies passwords as Weak, Moderate, or Strong.
+
+Core Features
+
+Shannon Entropy computation for randomness evaluation
+
+Detailed feedback on password composition
+
+Heuristic scoring based on length & complexity
+
+Regex-based pattern and structure detection
+
+Real-time classification (Weak/Moderate/Strong)
+
+Clean and modular Python code for easy extension
+
+
+Technical Concepts Used
+
+Shannon Entropy formula
+
+Character pool size calculation
+
+Regular Expressions for pattern matching
+
+Heuristic scoring models
+
+Python modular design
+
+
+What I Learned
+
+How to apply mathematical entropy to real security problems
+
+Designing feedback-driven security tools
+
+Understanding password cracking complexity
+
+Identifying gaps in theoretical knowledge like advanced probability and secure model design
+
+
+Future Improvements
+
+Predictive ML model for password resistance
+
+Database-free pattern learning
+
+GUI edition
+
+Integration with Hash-based password audits
+
+
